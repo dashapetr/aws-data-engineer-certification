@@ -53,7 +53,7 @@ Our data center is located in southern Germany. We intend to use the eu-central-
 
 
 
-Which AWS service would you recommend AnyCompany Streaming Media use for their large-scale data migration?
+## Which AWS service would you recommend AnyCompany Streaming Media use for their large-scale data migration?
 
 - [ ] AWS DataSync
 - [ ] Amazon S3 File Gateway
@@ -68,9 +68,14 @@ Correct answer:
 - [x] AWS Snowball Edge
 - [ ] Both AWS DataSync and AWS Snowball Edge
 
-Reason:
+## Solution:
 
 Multiple Snowball Edge devices are the best choice for ASM. The devices don't need internet access, and ASM stated they have available staffing in the data center to connect the devices.
+
+
+Based on information from the framework, several Snowball Edge Storage Optimized devices is the best approach to meet the three-month timeline. AWS DataSync could have been another option if there was available bandwidth. However, ASM stated that there are constraints on bandwidth availability. With AWS recommendations in place, ASM set up an infrastructure where four Snowball devices read from on-premises storage simultaneously. One engineer was present at the data center to manage the setup of the devices while other team members worked remotely to manage the logistics and file transfers. 
+
+At any given time, 12 AWS Snowball Edge devices were in use, whether copying data on-site at the data center, uploading content to Amazon S3, or in transit. 
 
 
 Source: https://explore.skillbuilder.aws/learn/course/15545/play/76124/planning-large-scale-data-migrations-to-aws
