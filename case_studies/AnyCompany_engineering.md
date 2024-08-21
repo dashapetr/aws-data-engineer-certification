@@ -74,3 +74,5 @@ There is no rush for when the data becomes available to use, because the data is
 ACE migrated 700 TB of data to Amazon S3 using AWS DataSync. After several rounds of testing and configuring DataSync tasks to the project specifications, the total migration time was 2.5 months. The transfer task was fast, steady, and used 1.4 Gbps of bandwidth during the low peak usage hours at night. It yielded a data transfer rate of about 500 Gibibytes an hour.
 
 ACE could have used about 10 AWS Snowball Edge devices for this migration, but the Snowball based migration plan included many more steps than using AWS DataSync. For example, the Snowball based plan called for creating and managing scripts to transfer data to the Snowball Edge devices and handling each Snowball Edge device in the data center. The AWS DataSync plan was straightforward and required less time to complete than the AWS Snowball Edge option.
+
+Source: https://explore.skillbuilder.aws/learn/course/15545/play/76124/planning-large-scale-data-migrations-to-aws
