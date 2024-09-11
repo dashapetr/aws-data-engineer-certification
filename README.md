@@ -45,5 +45,6 @@ I scored 1000/1000 on the [AWS Data Engineer - Associate exam](https://aws.amazo
 3. Note **specific requirements**: fault tolerance, low latency, no public Internet access, etc.
 4. **Eliminate answers** that don't make any sense.
 5. For the options remained: choose the **most suitable option based on points 1-3**.
-6. Unsure? **Flag it for review** and move on.
-7. **Stay calm and enjoy the exam—you've got this!**
+6. [EXTRA] Does the **question scenario** remind you anything mentioned in the [how-to directory](https://github.com/dashapetr/aws-data-engineer-certification/tree/main/how-to)?
+7. Unsure? **Flag it for review** and move on.
+8. **Stay calm and enjoy the exam—you've got this!**
