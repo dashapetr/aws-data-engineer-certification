@@ -37,3 +37,13 @@ I scored 1000/1000 on the [AWS Data Engineer - Associate exam](https://aws.amazo
 ## Questions:
 
 - [Examtopics](https://www.examtopics.com/exams/amazon/aws-certified-data-engineer-associate-dea-c01/)
+
+## Common AWS Data Engineer Associate exam tips: 🏆
+
+1. Focus on **what’s being asked**: e.g., LEAST operational overhead, MOST cost-effective, FASTEST queries, LEAST latency.
+2. Pay attention to **question details**: data sources, on-premise or on AWS, data size, access patterns, etc.
+3. Note **specific requirements**: fault tolerance, low latency, no public Internet access, etc.
+4. **Eliminate answers** that don't make any sense.
+5. For the options remained: choose the **most suitable option based on points 1-3**.
+6. Unsure? **Flag it for review** and move on.
+7. **Stay calm and enjoy the exam—you've got this!**
